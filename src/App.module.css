@@ -1,0 +1,129 @@
+.container {
+  width: 320px;
+  height: 100vh;
+  position: relative;
+}
+
+.janela {
+  position: absolute;
+  bottom: 100px;
+  width: 320px;
+  height: auto;
+}
+
+.janela img{
+  width: 320px;
+  height: auto;
+}
+
+.mesa {
+  position: absolute;
+  bottom: 0;
+  width: 320px;
+  height: auto;
+}
+
+.alho {
+  position: absolute;
+  bottom: 45px;
+  left: 60px;
+  width: 32px;
+  height: auto;
+  cursor: grab;
+}
+
+.alho img {
+  width: 32px;
+  height: auto;
+}
+
+.mamadeira {
+  position: absolute;
+  bottom: 45px;
+  right: 30px;
+  width: 64px;
+  height: auto;
+}
+
+.mamadeira img{
+  width: 64px;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+.papeis {
+  position: absolute;
+  bottom: 45px;
+  left: 100px;
+  width: auto;
+  height: 20px;
+  cursor: grab;
+}
+
+.papeis img {
+  width: auto;
+  height: 20px;
+}
+
+.resultContainer{
+  position: absolute;
+  bottom: 400px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: center;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.butonShare{  
+  width: fit-content;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  padding: 0.8rem 1.4rem;
+  font-weight: 500;  
+  border: none;
+  margin: 0.4rem 0;
+  border-radius: 0.8rem;
+  background-color: #566DEA;
+  color: #fff;
+}
+
+.butonRetry{  
+  width: fit-content;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  padding: 0.8rem 1.4rem;
+  font-weight: 500;  
+  border: none;
+  margin: 0.4rem 0;
+  border-radius: 0.8rem;
+  background-color: #47e739;
+  color: #fff;
+}
+
+
+.butonShare:hover,
+.butonRetry:hover{
+  filter: brightness(0.8);
+}
